@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#345"
+    android:id="@+id/idLayout"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    //14: Main activity deki listeden hangi id ye tıklanırsa onun bilgisine gidecek
+    //bu bilgilerin olduğu bir View tasarlayalım
+
+    <TextView
+        android:id="@+id/idPostId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
